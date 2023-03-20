@@ -111,7 +111,7 @@ const ModalLoginComponent = ({ open, handleClose }) => {
 
           <TextField
             id="outlined-basic"
-            label="Gebruiksernaam"
+            label="gebruikersnaam@unicoz.nl"
             variant="filled"
             required
             helperText={errorUsername}
