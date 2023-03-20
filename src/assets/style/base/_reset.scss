@@ -1,0 +1,102 @@
+html {
+  --cursive-font: "Chandler42W00-Medium", sans-serif;
+  --button-color: #009cd0;
+  --dev-button-color: rgb(227, 119, 0);
+  --accent-color: var(--button-color);
+  --danger-color: #de4444;
+  --modal-color: #f1f1f1;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-1: #617a8b;
+  --color-2: #305668;
+  --color-3: #d9d9d9;
+  --color-4: #b56a55;
+  --color-5: #e87070;
+  --color-6: #ea8b8b;
+  --color-7: #eba188;
+  --color-8: #f3d7a7;
+  --color-9: #fff5e5;
+  background-color: var(--color-1);
+
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+
+  /* Firefox */
+}
+
+@font-face {
+  font-family: "fira-sans";
+  src: url("/src/assets/fonts/Fira_Sans/FiraSans-Medium.ttf");
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+img,
+video {
+  /* width: auto;
+    height: auto; */
+  object-fit: cover;
+}
+
+video {
+  background-color: var(--button-color);
+}
+
+.cursive {
+  font-family: var(--cursive-font);
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: "Chandler42W00-Medium", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cool-border-thing {
+  --b: 5px;
+  /* thickness of the border */
+  --c: var(--button-color);
+  /* color of the border */
+  --w: 20px;
+  /* width of border */
+
+  border: var(--b) solid transparent;
+  /* space for the border */
+  --g: #0000 90deg, var(--c) 0;
+  background: conic-gradient(from 90deg at top var(--b) left var(--b), var(--g))
+      0 0,
+    conic-gradient(from 180deg at top var(--b) right var(--b), var(--g)) 100% 0,
+    conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--g)) 0 100%,
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--g)) 100%
+      100%;
+  background-size: var(--w) var(--w);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 10vh;
+  box-shadow: #00000059 0px 1px 20px;
+  z-index: 100;
+  overflow: auto;
+  border-radius: 5px;
+  //border: solid 20px var(--background-color);
+  flex: 0 80vh;
+}

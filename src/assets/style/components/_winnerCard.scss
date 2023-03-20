@@ -1,0 +1,38 @@
+.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #F9B700;
+    font-size: 20px;
+    font-weight: 400;
+    //margin-top: 2rem;
+}
+
+.crown-img {
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    margin-left: 0.4rem;
+    top:-13px;
+    
+}
+.circle-2 {
+    width: 32px;
+    height: 32px;
+    border:1px solid #F9B700;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #F9B700;
+    font-size: 20px;
+    font-weight: 400;
+}

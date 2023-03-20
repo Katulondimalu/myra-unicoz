@@ -1,0 +1,45 @@
+{
+  "name": "cnv2022",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/lab": "^5.0.0-alpha.114",
+    "@mui/material": "^5.10.6",
+    "@mui/styles": "^5.11.2",
+    "@mui/x-date-pickers": "^5.0.13",
+    "date-fns": "^2.29.3",
+    "dialog-polyfill": "^0.5.6",
+    "events": "^3.3.0",
+    "firebase": "^9.9.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "react": "^17.0.2",
+    "react-animations": "^1.0.0",
+    "react-code-input": "^3.10.1",
+    "react-dom": "^17.0.2",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-qr-barcode-scanner": "^1.0.6",
+    "react-router-dom": "^6.3.0",
+    "react-scroll": "^1.8.9",
+    "sass": "^1.54.8",
+    "styled-components": "^5.3.6",
+    "sweetalert2": "^11.4.35",
+    "universal-cookie": "^4.0.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "vite": "^3.0.7"
+  }
+}
