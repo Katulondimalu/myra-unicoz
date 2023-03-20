@@ -36,9 +36,9 @@ const ModalLoginComponent = ({ open, handleClose }) => {
 
   const handleSubmit = () => {
     if (username === "" || username === null)
-      return setErrorUsername("Please insert your username");
+      return setErrorUsername("vul je gebruikersnaam in");
     if (password === "" || password === null)
-      return setErrorPassword("Please insert your password");
+      return setErrorPassword("Vul je wachtwoord in");
     set(myra_ref, {
       username: username,
     });
