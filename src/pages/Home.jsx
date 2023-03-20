@@ -74,11 +74,10 @@ const Home = () => {
           }}
         >
           <Typography variant="p" fontSize={24} fontWeight={700}>
-            Aanmelding ontvangen
+            Dank u wel! Uw aanmelding is ontvangen. 
           </Typography>
           <Typography variant="p" fontSize={24} fontWeight={300}>
-            Zodra alle resultaten binnen zijn en zijn verwerkt zal het naar je
-            email adres verstuurd worden.
+           Zodra alle resultaten verwerkt zijn, zullen deze naar uw emailadres als PDF verstuurd worden.
           </Typography>
         </Stack>
       </Stack>
