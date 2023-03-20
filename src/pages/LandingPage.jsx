@@ -46,6 +46,7 @@ const LandingPage = () => {
             src={assets.myra_logo}
             onClick={() => {}}
           />
+          {/*}
           <Typography
             variant="h5"
             fontSize={64}
@@ -54,6 +55,7 @@ const LandingPage = () => {
           >
             Monitor Digitalisering Funderend Onderwijs
           </Typography>
+          */}
           <Box
             component="img"
             sx={{
