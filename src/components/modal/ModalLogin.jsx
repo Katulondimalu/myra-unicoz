@@ -122,6 +122,7 @@ const ModalLoginComponent = ({ open, handleClose }) => {
           <TextField
             id="outlined-basic"
             label="Wachtwoord"
+            type="password"
             variant="filled"
             required
             helperText={errorPassword}
