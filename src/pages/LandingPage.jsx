@@ -72,7 +72,7 @@ const LandingPage = () => {
             width: "90%",
             display: "flex",
             alignItems: "left",
-            margin: 10,
+            margin: 2,
           }}
         >
           <Typography variant="p" fontSize={24} fontWeight={700}>
@@ -91,7 +91,7 @@ const LandingPage = () => {
           sx={{
             display: "flex",
             alignItems: "center",
-            margin: 10,
+            margin: 1,
           }}
         >
           <CustomButtonPrimary handleEvent={() => handleOpenLogin()}>
